@@ -1,0 +1,95 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: 1px solid #d1d7dc;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* LEFT */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 30px;
+  width: auto;
+}
+/* CENTER */
+.nav-center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 30px;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #2d2f31;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #5624d0;
+}
+
+/* Search bar */
+.search-box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+  background: #f7f9fa;
+  border: 1px solid #d1d7dc;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.search-icon {
+  font-size: 16px;
+}
+
+/* RIGHT SECTION */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-btn {
+  background: none;
+  border: 1px solid #d1d7dc;
+  padding: 8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.login-btn {
+  background: none;
+  border: 1px solid #2d2f31;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #2d2f31;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
