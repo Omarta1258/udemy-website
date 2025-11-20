@@ -1,19 +1,10 @@
 import React from "react";
-import SkillCard from "./SkillCard";
 import "./SkillSection.css";
+import SkillCard from "./SkillCard";
 
-// Import images
-import genAI from "../../img2.jpg";
-import itImg from "../../img3.jpg";
-import dataScienceImg from "../../img4.jpg";
+import { skillCategories } from "../../dummyData";
 
 export default function SkillsSection() {
-  const categories = [
-    { title: "Generative AI", image: genAI },
-    { title: "IT certifications", image: itImg },
-    { title: "Data Science", image: dataScienceImg },
-  ];
-
   return (
     <section className="skills-wrapper">
       {/* LEFT SIDE */}
@@ -26,7 +17,7 @@ export default function SkillsSection() {
 
       {/* RIGHT SIDE — CARDS */}
       <div className="skills-right">
-        {categories.map((cat, index) => (
+        {skillCategories.map((cat, index) => (
           <SkillCard key={index} image={cat.image} title={cat.title} />
         ))}
       </div>
