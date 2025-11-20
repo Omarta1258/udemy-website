@@ -8,7 +8,7 @@ All text, images, and UI content come from a centralized dummy data file for eas
 ---
 
 # Features
-- Modern React front-end (Vite or CRA, depending on your setup)
+- Modern React front-end 
 - Component-based architecture (Navbar, Hero, Categories, Skills, Trusted Companies…)
 - Dummy data stored separately in `src/data/dummyData.js`
 - Fully responsive layout (mobile/tablet/desktop)
