@@ -30,7 +30,7 @@ All text, images, and UI content come from a centralized dummy data file for eas
 # Screenshots
 <img width="1917" height="971" alt="image" src="https://github.com/user-attachments/assets/cde40e87-b88b-4b16-b22f-78b1d9a7a40e" />
 
-<img width="1896" height="1074" alt="image" src="https://github.com/user-attachments/assets/ce72ae91-4c54-4f01-ae8e-cb4fad0c019b" />
+<img width="1899" height="1079" alt="image" src="https://github.com/user-attachments/assets/6cfdcf3b-ddea-4145-a283-fd5b36b53c5a" />
 
 <img width="1896" height="1079" alt="image" src="https://github.com/user-attachments/assets/4abfd2ab-a9c5-4431-920a-06a4b37dfbe9" />
 
