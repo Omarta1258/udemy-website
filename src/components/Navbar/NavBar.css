@@ -28,6 +28,55 @@
   gap: 20px;
 }
 
+.explore {
+  position: relative;
+}
+
+.explore-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chev {
+  font-size: 11px;
+  transition: transform 0.18s ease;
+}
+
+.chev.open {
+  transform: rotate(180deg);
+}
+
+.explore-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: #fff;
+  border: 1px solid #e6e8eb;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(16, 24, 40, 0.08);
+  padding: 8px 0;
+  min-width: 220px;
+  z-index: 40;
+}
+
+.explore-item {
+  display: block;
+  padding: 10px 16px;
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.explore-item:hover {
+  background: #f3f6f8;
+}
+
 .nav-link {
   color: #2d2f31;
   font-size: 14px;
