@@ -1,0 +1,32 @@
+.trusted-wrapper {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #f7f9fa;
+  text-align: center;
+}
+
+.trusted-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.trusted-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.trusted-logo {
+  height: 40px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.trusted-logo:hover {
+  opacity: 1;
+}
