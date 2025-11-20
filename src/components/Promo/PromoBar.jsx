@@ -1,4 +1,4 @@
-import image from "../../../src/img1.jpg";
+import { promoBar } from "../../dummyData";
 import "./PromoBar.css";
 
 export default function PromoBar() {
@@ -6,14 +6,16 @@ export default function PromoBar() {
     <div className="promo-bar">
       <div className="promo-content">
         <h1>
-          Learn more, spend less — <br />
-          Black Friday Sale from <br />
-          £279.99
+          {promoBar.titleLine1} <br />
+          {promoBar.titleLine2} <br />
+          {promoBar.price}
         </h1>
-        <p>Sitewide savings on thousands of courses. Ends Nov 28.</p>
+
+        <p>{promoBar.description}</p>
       </div>
+
       <div className="promo-image">
-        <img src={image} alt="promo" />
+        <img src={promoBar.image} alt="promo" />
       </div>
     </div>
   );
